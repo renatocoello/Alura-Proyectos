@@ -1,0 +1,85 @@
+
+header{
+    background-color: #bbbbbb;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #dd9830;
+    text-decoration: underline;
+}
+
+#banner{
+    width: 100%;
+}
+
+.sobreNosotros{
+    background-color: rgb(214, 212, 212);
+    padding: 30px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+    font-size: xx-large;
+}
+
+p {
+    text-align: center;
+}
+
+#mision{
+    font-size: 20px;
+}
+
+em strong{
+    color: rgb(236, 29, 29);
+
+}
+
+
+.items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    background-color: aquamarine;
+    width: 30%;
+    margin-right: 15%;
+    font-size: 20px;
+}
+
+.diferenciales{
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+#imagen_diferenciales{
+    width: 50%;
+}

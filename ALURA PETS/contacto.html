@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Pets - Contacto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header >
+        <div class="caja">
+            <h1><img class="logo-principal" src="image/Screenshot_6-removebg-preview.png" alt="Logo de Alura Pets"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" >Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html" >Contacto</a></li>
+                </ul>      
+            </nav>
+        </div>
+    </header>
+    <main class="contacto">
+        <h2>Contacto</h2>
+        <div class="contenedor-contacto ">
+            <form>
+                <div class="contenedor-principal">
+                    <label for="nombreApellido"> Nombre y Apellido</label>
+                    <input type="text" id="nombreApellido" class="formulario-principal" required>
+        
+                    <label for="correoElectronico">Correo Electronico</label>
+                    <input type="email"  id="correoElectronico"class="formulario-principal"  required placeholder="email@dominio.com">
+        
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" id="telefono" class="formulario-principal"  required placeholder="(xxx) xxxxxxxxx">
+        
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" cols="70" rows="10" class="formulario-principal"  required></textarea>
+                </div>
+                
+                <fieldset class="formulario-secundario">
+                    <legend>¿Como le gustaria ser contactado?</legend>
+                    <label for="radio-whatsapp">Whatsapp<input type="radio" id="radio-whatsapp" name="contacto" checked></label>
+                    <label for="radio-email">E-mail<input type="radio" id="radio-email" name="contacto"></label>
+                    <label for="radio-llamada">Llamada de voz <input type="radio" id="radio-llamada" name="contacto"></label>
+                </fieldset>
+
+                <input type="submit" value="Enviar" class="boton-enviar">
+            </form>
+        </div>
+    </main>
+    <footer>
+        
+        <div class="contenedor-footer">
+            <img class="imagen-footer" src="image/image-removebg-preview.png" alt=""><ul class="lista-footer">
+                <li>
+                    <h2>+593 945326123</h2>
+                </li>
+                <li>
+                    <h2>veterinaria@alurapets.com</h2>
+                </li>
+                <li>
+                    <h2>Cdla. Kenedy</h2>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

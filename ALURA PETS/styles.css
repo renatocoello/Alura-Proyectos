@@ -1,0 +1,274 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+header{
+    height: 250px;
+
+}
+
+.caja{
+    width: 940px;
+    height: 400px;
+    position: relative;
+    margin: 0 2em;
+    
+}
+
+.logo-principal{
+    width: 280px;
+    position: absolute;
+    height: 280px;
+    top: 0px;
+    left: 0px;
+}
+
+nav{
+    position: absolute;
+    top: 130px;
+    right: -300px;
+
+}
+
+nav li{
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav li:nth-child(-n+2) a:hover{
+
+    color: rgb(67, 100, 207);
+
+}
+
+nav li:last-child a{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #3b8fc7;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: 600ms background;
+}
+
+nav li:last-child a:hover{
+    background-color: #82dd4a;
+    color: white;
+}
+
+.banner{
+    width: 640px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.titulo-banner{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    padding-top: 70px;
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.titulo-banner::after{
+    content: " Pets";
+    color: #3b8fc7;
+}
+
+
+.imagen-banner{
+    width: 50%;
+    padding-left: 30px;
+}
+
+
+.sobreNosotros{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.titulo-sobreNosotros, .titulo-caracteristica{
+    padding: 1em;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contenedor-sobreNosotros{
+    padding: 1em;
+}
+
+.contenedor-sobreNosotros p{
+    margin: 0 30px 10px 30px;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.caracteristica{
+    width: 640px;
+    margin: 0 auto;
+
+}
+
+.contenedor-caracteristica{
+    width: 70%;
+    margin: 0 auto;
+    padding: 2em 0px 40px 0px;
+
+}
+
+.contenedor-caracteristica h3{
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+
+
+
+.contenedor-caracteristica li{
+
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    color: rgb(0, 0, 0);
+    margin: 0 1.5%;
+    vertical-align: top;
+    padding: 40px 0px;
+    box-sizing: border-box;
+
+}
+
+.contenedor-caracteristica img{
+    width: 70px;
+    height: 70px;
+    padding-bottom: 50px;
+}
+
+
+.boton-contacto button, .boton-enviar {
+    text-align: center;
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3b8fc7;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    transition: 600ms background;
+}
+
+.boton-contacto button:hover{
+    background-color: #82dd4a;
+}
+.boton-enviar:hover{
+    background-color: #82dd4a;
+}
+
+footer{
+    background-color: black;
+}
+
+
+.contenido-footer{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.imagen-footer{
+    margin-left: 50px;
+}
+
+.lista-footer{
+    display: inline-block;
+    width: 40%;
+    color: white;
+    vertical-align: top;
+    margin: 170px 0px 0px 300px;
+    text-align: end;
+
+}
+
+.lista-footer h2{
+    padding-bottom: 1em;
+}
+
+
+.contacto{
+    width: 100%;
+    margin: 0 auto;
+    font-weight: bold;
+
+
+    
+}
+
+.contacto h2{
+    padding: 1em;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contenedor-contacto{
+    margin: auto 0;
+    width: 100%;
+    text-align: center;
+}
+
+.contenedor-principal input{
+    width: 30%;
+}
+
+.form label{
+    display: block;
+    
+}
+
+.formulario-principal{
+    text-align: center;
+    width: 30%;
+    display: block;
+    padding: 5px 20px;
+    margin: 20px auto;
+}
+
+.formulario-secundario legend{
+    font-weight: bold;
+
+}
+
+.formulario-secundario{
+    margin: 20px auto;
+    padding: 10px 0;
+    
+}
+
+.formulario-secundario label{
+    display: block;
+    padding: 4px 0px;
+    font-weight: 600;
+}
+
+.boton-contacto{
+    text-decoration: none;
+
+}
+
+
